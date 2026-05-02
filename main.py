@@ -28,7 +28,7 @@ bot_state = {
 }
 
 # Binance spot (no API key needed for public data)
-exchange = ccxt.binance({'enableRateLimit': True})
+ exchange = ccxt.bybit({'enableRateLimit': True})
 
 # ==================== TECHNICAL INDICATORS ====================
 def ema(series, period):
